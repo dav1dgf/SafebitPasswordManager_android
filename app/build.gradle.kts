@@ -11,13 +11,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.safebit"
+    namespace = "com.example.password_manager"
     compileSdk = 34
     val file = rootProject.file("local.properties")
     val properties = Properties()
     properties.load(FileInputStream(file))
     defaultConfig {
-        applicationId = "com.example.safebit"
+        applicationId = "com.example.password_manager"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

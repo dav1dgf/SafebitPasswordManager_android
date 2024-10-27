@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SafeBit"
+rootProject.name = "Password_Manager"
 include(":app")
  
