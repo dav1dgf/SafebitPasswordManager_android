@@ -1,10 +1,21 @@
-This is the Android Version of a password manager made by me. You can log into your account protected with a hashed password using BCrypt ([https://github.com/spring-projects/spring-security/blob/main/crypto/src/main/java/org/springframework/security/crypto/bcrypt/BCrypt.java](url)), and then using your key password the data inside the databse is decrypted deriving a cryptographic key from a password using the PBKDF2 (Password-Based Key Derivation Function 2) algorithm. With that keyyou decrypt the data stored inside the database, which is encrypted using AES-256.
+# Password Manager - Android Version
 
-![Screenshot from 2024-10-27 18-29-24](https://github.com/user-attachments/assets/b5fd7275-cadb-4efa-abf9-feceda8760af)
+This is the Android version of a password manager created by me.
 
+## Features
+- **Secure Login**: Accounts are protected with a hashed password using [BCrypt](https://github.com/spring-projects/spring-security/blob/main/crypto/src/main/java/org/springframework/security/crypto/bcrypt/BCrypt.java).
+- **Encryption**: Credentials stored in the database are encrypted using **AES-256**.
+- **Decryption**: Data is decrypted using a key derived from your **key password** via the **PBKDF2 (Password-Based Key Derivation Function 2)** algorithm.
+- **Credential Management**:
+  - Add new credentials.
+  - Delete existing credentials.
+  - Copy stored credentials to the clipboard.
 
-The software allows you to log into your account or create one if you do not have one, and then you can access your credentials, whhere ypu can add, delete and copy them.
+## Usage
+1. Log into your account or create one if you don’t have an existing account.
+2. Access your credentials, add new ones, delete them, or copy them when needed.
 
+## Screenshots
 Some screenshots of its functionality:
 
 <div style="display: flex; gap: 20px; margin-bottom: 20px;">
