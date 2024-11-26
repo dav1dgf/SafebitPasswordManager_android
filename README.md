@@ -7,12 +7,12 @@ The software allows you to log into your account or create one if you do not hav
 
 Some screenshots of its functionality:
 
-<div style="display: flex; gap: 20px; justify-content: flex-start; margin-bottom: 20px;">
+<div style="display: flex; gap: 20px; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/a96460ca-3959-424e-bf1f-64337f0087be" alt="register" width="400">
   <img src="https://github.com/user-attachments/assets/6e2548be-cd28-4102-9c39-01c29e6be9c1" alt="login" width="400">
 </div>
 
-<div style="display: flex; gap: 20px; justify-content: flex-start; margin-bottom: 20px;">
+<div style="display: flex; gap: 20px; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/c01d861b-199e-4243-b277-da47ae395c8e" alt="creed_detail" width="400">
   <img src="https://github.com/user-attachments/assets/f6ff1ce3-0d08-4389-92d9-407ab6860dea" alt="cred_list" width="400">
 </div>
