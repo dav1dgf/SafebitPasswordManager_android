@@ -20,9 +20,6 @@
             android:name=".ui.CredentialDetail"
             android:exported="false" />
         <activity
-            android:name=".application.CredentialItem"
-            android:exported="false" />
-        <activity
             android:name=".ui.CredentialList"
             android:exported="false" />
         <activity

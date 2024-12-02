@@ -17,7 +17,7 @@ import kotlinx.coroutines.launch
 import android.content.Context
 import android.content.SharedPreferences
 
-//ERROR: ver si fallas y luego aciertas como hace la progressbar
+
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityLoginBinding

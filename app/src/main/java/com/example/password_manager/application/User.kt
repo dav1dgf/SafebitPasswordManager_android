@@ -5,5 +5,5 @@ import java.io.Serializable
 @kotlinx.serialization.Serializable
 data class User (
     val email: String,
-    val password: String,
+    val hash_pw: String,
 ) : Serializable
